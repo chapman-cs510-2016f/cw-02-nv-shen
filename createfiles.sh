@@ -25,7 +25,7 @@ done
 
 
 #append the line Temporary file XXX to each one, where "XXX" is the number in the filename.
-ls -l ${BASEDIR}/tmpfiles | sort -n | awk '{print $NF}' | while read FILENAME
+ls -l ${BASEDIR}/tmpfiles | grep file | sort -n | awk '{print $NF}' | while read FILENAME
 do
 	FILENUM=`echo $FILENAME | sed 's/file//' `
 	echo "Temporary file ${FILENUM}" > ${BASEDIR}/tmpfiles/${FILENAME}	
