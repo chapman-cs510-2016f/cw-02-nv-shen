@@ -7,7 +7,7 @@ cd ${BASEDIR}/tmpfiles
 
 echo ${BASEDIR}/tmpfiles
 
-#creates 100 files named file001.tmp to file100.tmp in that directory. After the files are created, append the line Temporary file XXX to each one, where "XXX" is the number in the filename.
+#creates 100 files named file001.tmp to file100.tmp in that directory.
 for ((i=1;i<=100;i=i+1))
 do	
 	if [ $i -lt 10 ]
@@ -20,9 +20,15 @@ do
 		FILENAME="`echo \"file$i\"`"
 	fi
 		touch -f ${BASEDIR}/tmpfiles/${FILENAME}
- 		#echo $FILENAME
 
-	echo "Temporary file ${FILENAME}" > ${BASEDIR}/tmpfiles/${FILENAME}	
+done
+
+
+#append the line Temporary file XXX to each one, where "XXX" is the number in the filename.
+ls -l ${BASEDIR}/tmpfiles | sort -n | awk '{print $NF}' | while read FILENAME
+do
+	FILENUM=`echo $FILENAME | sed 's/file//' `
+	echo "Temporary file ${FILENUM}" > ${BASEDIR}/tmpfiles/${FILENAME}	
 done
 
 exit 0
