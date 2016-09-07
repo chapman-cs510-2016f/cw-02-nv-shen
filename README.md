@@ -2,7 +2,7 @@
 
 **Author(s):** _\<your name(s)\>_
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2016f/cw-02-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2016f/cw-02-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-cs510-2016f/cw-02-nv-shen.svg?branch=master)](https://travis-ci.org/chapman-cs510-2016f/cw-02-nv-shen)
 
 **Due date:** 2016/09/13
 
