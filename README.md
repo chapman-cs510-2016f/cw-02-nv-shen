@@ -1,6 +1,6 @@
 # CS510 CW 2
 
-**Author(s):** _\<your name(s)\>_
+**Author(s):** _Nengyin (Helen) Zhu, Lance Clifner, Alexis Ford_
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2016f/cw-02-nv-shen.svg?branch=master)](https://travis-ci.org/chapman-cs510-2016f/cw-02-nv-shen)
 
@@ -20,7 +20,7 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**The classwork was a good way to get more experience with bash programs, provide an introduction to Python, and learn from more experienced team members.**
 
 ## Honor Pledge
 
@@ -31,4 +31,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Nengyin (Helen) Zhu, Lance Clifner, Alexis Ford**
