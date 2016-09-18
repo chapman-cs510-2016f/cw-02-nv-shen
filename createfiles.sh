@@ -32,3 +32,16 @@ do
 done
 
 exit 0
+
+
+
+### INSTRUCTOR COMMENTS
+# This is quite the elaborate implementation, using a large number of UNIX tools.
+# I would suggest seeking simplicity. Good bash coding is almost a zen experience.
+# Compare to a possible implementation below (omitting comments):
+# 
+# if [ -d tmpfiles ]; then rm -rf tmpfiles; fi
+# mkdir -p tmpfiles
+# touch tmpfiles/file{001..100}.tmp
+# for i in $(seq -w 100); do echo $i >> tmpfiles/file$i.tmp; done
+#
