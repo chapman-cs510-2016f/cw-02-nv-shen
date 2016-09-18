@@ -27,3 +27,13 @@ fi
 
 
 exit 0
+
+
+### INSTRUCTOR COMMENTS
+# Again, very complicated (though I suspect you learned a lot doing it).
+# Compare to the following complete implementation:
+# 
+# if [ ! $1 -gt 0 ]; then echo "Input a positive integer." && exit 1; fi
+# echo $(seq $1)
+#
+# Simplicity is key.
